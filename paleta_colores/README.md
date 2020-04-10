@@ -2,4 +2,4 @@
 
 Dibuja con el cursor seleccionando distintos colores
 
-![](hello.png)
+![](Hello.png)
