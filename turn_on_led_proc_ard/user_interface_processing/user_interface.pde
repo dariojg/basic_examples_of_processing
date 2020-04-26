@@ -14,7 +14,7 @@ void setup(){
     
     printArray(Serial.list()); // imprime lista de puertos disponibles
     
-    port = new Serial(this, "/dev/ttyUSB0", 9600); // Mac: ; Linux ; Windows COM3;
+    port = new Serial(this, "/dev/ttyUSB0", 9600); // Mac ? ; Linux "dev/tty/USB0" ; Windows COM3; El nombre de puerto se puede obtener cuando iniciamos la interfaz serial con arduino. (tool -> serial monitor en el ide de arduino)
     
 }
 
@@ -28,8 +28,6 @@ void draw(){
 
 void createButtons(){
   cp5 =  new ControlP5(this);
-  
-  
   
   cp5.addButton("red")
     .setPosition(100, 50)
@@ -52,18 +50,18 @@ void createButtons(){
     .setFont(font);
 }
 
-void red(){  // link con name del botton "red"
+void red(){  // link con name del button "red"
   port.write('r');
 }
 
-void green(){  // link con name del botton "red"
+void green(){  // link con name del button "green"
   port.write('g');
 }
 
-void yellow(){  // link con name del botton "red"
+void yellow(){  // link con name del button "yellow"
   port.write('y');
 }
 
-void off(){  // link con name del botton "red"
+void off(){  // link con name del button "off"
   port.write('0');
 }
