@@ -5,4 +5,5 @@
 
 
 ## Circuito arduino uno
+Simulación: https://www.tinkercad.com/things/k6FUUQ7dDZi  
 ![](images/circuito.png)
