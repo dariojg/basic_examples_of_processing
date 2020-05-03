@@ -1,4 +1,4 @@
-# Enciende leds desde un panel de control gráfico
+# Control de leds desde una interfaz gráfica
 
 ## Panel de control de luces  
 ### Referencia librería GUI ControlP5
